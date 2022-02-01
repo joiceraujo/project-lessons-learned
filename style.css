@@ -1,9 +1,21 @@
-Body {
+body {
     background-color: rgb(253, 251, 251);
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-#header {
+#cabecalho {
     top: 0;
+    margin: 0;
+    background-color: rgb(10, 126, 81);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.navegação {
+padding: 0;
 }
 
 #titulo {
@@ -12,4 +24,34 @@ Body {
 
 #minha_foto {
     width: 10%;
+    margin: 10%;
+    padding: 0;
+    float: left;
+    margin-left: 2%;
+}
+
+.principal {
+    
+}
+
+.primeira_secao{
+
+
+}
+
+.segunda_secao {
+
+}
+
+#licoes_aprendidas
+
+#licoes_a_aprender {
+
+}
+
+#rodape {
+    padding: 20px;
+    bottom: 0;
+    position: relative;
+    width: 100%;
 }
