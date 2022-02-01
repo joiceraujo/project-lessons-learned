@@ -1,0 +1,15 @@
+Body {
+    background-color: rgb(253, 251, 251);
+}
+
+#header {
+    top: 0;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#minha_foto {
+    width: 10%;
+}
