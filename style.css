@@ -48,30 +48,33 @@ header {
 }
 
 #licoes_aprendidas {
-    float: left;
-    margin: 100%;
+    display: inline-block;
+    width: 30%;
+    margin-left: 90px;
+    margin-top: 2%;
     position: relative;
-    margin-top: 5%;
-    margin-left: 8%;
     font-family: Arial, Helvetica, sans-serif;
-background-color: black;
+    
 
 }
 
 #licoes_a_aprender {
     float: right;
-    margin: 100%;
+    width: 30%;
+    padding: 30px;
     position: relative;
-    margin-top: 5%;
-    margin-right: 8%;
+    margin-right: 300px;
+    margin-top: 0%;
+    
     font-family: Arial, Helvetica, sans-serif;
-   background-color: black;
 }
 
 #article {
-background-color: black;
-margin-top: 5%;
-float: left;
+text-align: center;
+margin-top: 0%;
+display: inline-block;
+margin: 100px;
+padding-top: 50px;
 }
 
 #aside {
@@ -79,9 +82,13 @@ width: 300px;
 height: 350px;
 margin-right: 7%;
 float: right;
-text-align: center;
-background-color: black;
+text-align: right;
 }
+
+#table{
+margin-left: 3%;
+}
+
 
 #rodape {
     background-color: rgb(36 32 36);
