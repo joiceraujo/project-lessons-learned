@@ -1,11 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(253, 251, 251);
+}
+
+main {
+    margin: 20px;
 }
 
 header {
@@ -33,62 +37,83 @@ header {
 
 #navegacao {
     font-family: Arial, Helvetica, sans-serif;  
-    margin-left: 2%;
-    color: brown;
+    margin-left: 5%;
+    bottom:0;
+    font-size: 20px;
+    color:lightgreen
 }
 
 #minha_foto {
     width: 150px;
-    margin-top: 150px;
-    margin-left: 1%;
-}
-
-#main {
-    padding-top: 180px;
+    margin-top: 170px;
+    margin-left: 2%;   
 }
 
 #licoes_aprendidas {
-    display: inline-block;
+    float: left;
     width: 30%;
-    margin-left: 90px;
-    margin-top: 2%;
+     margin-top: 3%;
+     margin-left: 50px;
+     bottom: 25px;
     position: relative;
+    line-height: 150%;
     font-family: Arial, Helvetica, sans-serif;
-    
-
 }
 
 #licoes_a_aprender {
     float: right;
-    width: 30%;
-    padding: 30px;
+    width: 20%;
+    padding: 20px;
     position: relative;
-    margin-right: 300px;
-    margin-top: 0%;
-    
+    margin: 0%;
+    margin-left: 40%;
+    bottom: 20px;
+    top: 0;
+    line-height: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #article {
+max-width: 50%;
 text-align: center;
-margin-top: 0%;
+margin-left: 30%;
+float: left;
+margin: 0;
+width: 400px;
+height: 300px;
+}
+
+.lado-esquerdo{
 display: inline-block;
-margin: 100px;
-padding-top: 50px;
+width: 30%;
+margin-left: 10px;
+}
+
+.lado-direito {
+display: inline-block;
+width: 30%;
+margin-left: 50px;
 }
 
 #aside {
-width: 300px;
-height: 350px;
-margin-right: 7%;
+max-width: 50%;
+width: 400px;
+margin-top: 20px;
+margin-right: 8%;
 float: right;
-text-align: right;
+text-align: center;
 }
 
-#table{
-margin-left: 3%;
-}
+#table {
 
+background-color:lightgreen;
+text-align: center;
+position: static;
+bottom: 0;
+margin: 500px;
+top: 0;
+
+}
 
 #rodape {
     background-color: rgb(36 32 36);
